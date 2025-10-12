@@ -1,0 +1,86 @@
+# Balance & Stillness - Balance and meditative practices
+category: Balance & Stillness
+code: BS
+weight: 1.0
+default_rpe: 2  # Very light - meditative balance work
+tags: [bodyx, balancex, mindx]
+
+snacks:
+  - code: singleleg-reach
+    title: Single-leg balance + reach patterns
+    description: |
+      Stand on one leg and practice reaching patterns in different directions.
+      Focus on stability and control.
+    duration_min: 3
+    duration_max: 5
+    rpe: 3  # Light - active balance work
+    max_per_day: 1
+    weight: 1.0
+    every_day: false
+    tags: []
+
+  - code: eyesclosed-balance
+    title: Eyes-closed one-leg stance
+    description: |
+      Single-leg balance with eyes closed. Advanced proprioceptive challenge.
+      Start near wall for safety.
+    duration_min: 2
+    duration_max: 3
+    # rpe: inherits default_rpe (2)
+    max_per_day: 1
+    weight: 1.0
+    every_day: false
+    tags: []
+
+  - code: board-breathing
+    title: Balance board or slant board breathing
+    description: |
+      Standing on balance board or slant board with focus on breathing
+      and maintaining stability.
+    duration_min: 3
+    duration_max: 5
+    # rpe: inherits default_rpe (2)
+    max_per_day: 1
+    weight: 1.0
+    every_day: false
+    tags: [breathx]
+    # Requires balance board or slant board
+
+  - code: standing-meditation
+    title: Standing meditation (zhan zhuang)
+    description: |
+      Traditional standing meditation posture. Arms in circle position,
+      soft knees. Focus on breath and stillness.
+    duration_min: 3
+    duration_max: 5
+    # rpe: inherits default_rpe (2)
+    max_per_day: 1
+    weight: 1.0
+    every_day: false
+    tags: [breathx]
+
+  - code: ankle-toe
+    title: Slow ankle rotations + toe spreads
+    description: |
+      Seated or standing ankle mobility work and toe spreading exercises.
+      Great for foot health.
+    duration_min: 3
+    duration_max: 5
+    rpe: 1  # Very light - passive mobility
+    max_per_day: 1
+    weight: 1.0
+    every_day: false
+    tags: [mobilityx]
+
+  - code: tree-pose
+    title: Tree-pose holds with diaphragmatic breathing
+    description: |
+      Yoga tree pose (Vrksasana) with focus on deep belly breathing
+      and stability.
+    duration_min: 3
+    duration_max: 5
+    # rpe: inherits default_rpe (2)
+    max_per_day: 1
+    weight: 1.0
+    every_day: false
+    tags: [breathx]

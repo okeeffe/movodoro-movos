@@ -1,0 +1,85 @@
+# Carry & Crawl - Loaded movement and ground patterns
+category: Carry & Crawl
+code: CC
+weight: 1.0
+default_rpe: 6  # Moderate-hard for loaded carries
+tags: [bodyx, flowx, strengthx]
+
+snacks:
+  - code: leopard-crawl
+    title: Leopard crawl → backward crawl → bear crawl
+    description: |
+      Flow through different crawling variations. Leopard (low), backward,
+      and bear (high) crawling patterns.
+    duration_min: 3
+    duration_max: 5
+    rpe: 5  # Moderate - unloaded crawling
+    max_per_day: 1
+    weight: 1.0
+    every_day: false
+    tags: [crawlx]
+
+  - code: suitcase
+    title: Suitcase carry (20-30s per arm)
+    description: |
+      Single-arm loaded carry. Focus on anti-lateral flexion and core stability.
+      Moderate weight.
+    duration_min: 2
+    duration_max: 3
+    # rpe: inherits default_rpe (6)
+    max_per_day: 1
+    weight: 1.0
+    every_day: false
+    tags: [kbx, carryx]
+    # Requires kettlebell or dumbbell
+
+  - code: cross-body-carry
+    title: Cross-body (dirty nappy) carry
+    description: |
+      Cross-body kettlebell carry. Requires significant core stability
+      and anti-rotation strength.
+    duration_min: 2
+    duration_max: 3
+    rpe: 7  # Hard - anti-rotation challenge
+    max_per_day: 1
+    weight: 1.0
+    every_day: false
+    tags: [kbx, carryx]
+
+  - code: crawl-reach
+    title: Crawl + reach-roll-lift for shoulders
+    description: |
+      Crawling with periodic reach, roll, and lift patterns for
+      shoulder health and mobility.
+    duration_min: 3
+    duration_max: 5
+    rpe: 4  # Light-moderate - mobility focus
+    max_per_day: 1
+    weight: 1.0
+    every_day: false
+    tags: [crawlx, mobilityx]
+
+  - code: bear-plank
+    title: Bear crawl to plank → back to crawl
+    description: Flow between bear crawl position and plank holds.
+    duration_min: 3
+    duration_max: 5
+    rpe: 5  # Moderate - dynamic holds
+    max_per_day: 1
+    weight: 1.0
+    every_day: false
+    tags: [crawlx]
+
+  - code: farmer-carry
+    title: Farmer carry + deep nasal breaths
+    description: |
+      Two-hand farmer carry with focus on deep nasal breathing.
+      Moderate weight, steady pace.
+    duration_min: 2
+    duration_max: 3
+    # rpe: inherits default_rpe (6)
+    max_per_day: 1
+    weight: 1.0
+    every_day: false
+    tags: [kbx, carryx, breathx]
+    # Requires two kettlebells or dumbbells

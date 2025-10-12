@@ -1,0 +1,84 @@
+# Get-Up Practice - Turkish get-up variations
+category: Get-Up Practice
+code: GUP
+weight: 1.0
+default_rpe: 5  # Moderate - controlled get-up work
+tags: [kbx, getupx, strengthx]
+
+snacks:
+  - code: naked-getups
+    title: Naked get-ups (no load)
+    description: |
+      Get-ups without weight. Focus on movement quality, positions,
+      and transitions. Great for learning or warm-up.
+    duration_min: 3
+    duration_max: 5
+    rpe: 3  # Light - bodyweight only
+    max_per_day: 1
+    weight: 1.0
+    every_day: false
+    tags: [bodyx]
+
+  - code: light-getups
+    title: Light get-ups (8-12kg)
+    description: Turkish get-ups with light weight. Focus on form and control.
+    duration_min: 5
+    duration_max: 7
+    # rpe: inherits default_rpe (5)
+    max_per_day: 1
+    weight: 1.0
+    every_day: false
+    tags: []
+    # 8-12kg recommended
+
+  - code: reverse-getup
+    title: Reverse get-up with overhead reach
+    description: |
+      Get-up starting from standing position and going down.
+      Overhead reach throughout.
+    duration_min: 3
+    duration_max: 5
+    # rpe: inherits default_rpe (5)
+    max_per_day: 1
+    weight: 1.0
+    every_day: false
+    tags: []
+
+  - code: pause-getup
+    title: Get-up + pause in half-kneel with breath focus
+    description: |
+      Standard get-up with extended pause in half-kneeling position.
+      Focus on breathing and stability.
+    duration_min: 5
+    duration_max: 7
+    # rpe: inherits default_rpe (5)
+    max_per_day: 1
+    weight: 1.0
+    every_day: false
+    tags: [breathx]
+
+  - code: half-getup
+    title: Half get-ups only (floor to tall kneel)
+    description: |
+      Practice only the first half of the get-up: floor to tall kneeling.
+      Can use heavier weight.
+    duration_min: 3
+    duration_max: 5
+    rpe: 6  # Moderate-hard - can use heavier weight
+    max_per_day: 1
+    weight: 1.0
+    every_day: false
+    tags: []
+
+  - code: rotational-getup
+    title: Rotational get-up with open-hand reach
+    description: |
+      Get-up variation with added rotational component and open-hand
+      reaching patterns.
+    duration_min: 5
+    duration_max: 7
+    # rpe: inherits default_rpe (5)
+    max_per_day: 1
+    weight: 0.8
+    every_day: false
+    tags: [mobilityx]

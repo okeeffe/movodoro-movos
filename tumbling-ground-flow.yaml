@@ -1,0 +1,86 @@
+# Tumbling & Ground Flow - Movement exploration on the ground
+category: Tumbling & Ground Flow
+code: TGF
+weight: 1.0
+default_rpe: 4  # Light-moderate ground movement
+tags: [bodyx, flowx, mobilityx]
+
+snacks:
+  - code: shoulder-rolls
+    title: Shoulder rolls (left & right)
+    description: |
+      Gentle shoulder rolling patterns. Focus on smooth transitions
+      and spinal articulation.
+    duration_min: 3
+    duration_max: 5
+    rpe: 2  # Very light - gentle rolling
+    max_per_day: 1
+    weight: 1.0
+    every_day: false
+    tags: []
+
+  - code: rock-roll-stand
+    title: Rock → roll → stand flows
+    description: |
+      Flow from rocking to rolling to standing. Explore different
+      pathways and transitions.
+    duration_min: 3
+    duration_max: 5
+    # rpe: inherits default_rpe (4)
+    max_per_day: 1
+    weight: 1.0
+    every_day: false
+    tags: []
+
+  - code: side-rolls
+    title: Side rolls, forward/backward rolls
+    description: |
+      Practice side, forward, and backward rolling patterns.
+      Use mat if available.
+    duration_min: 3
+    duration_max: 5
+    # rpe: inherits default_rpe (4)
+    max_per_day: 1
+    weight: 0.8
+    every_day: false
+    tags: []
+    # Mat recommended
+
+  - code: cartwheel-beast
+    title: Cartwheel or low hand-foot beast transitions
+    description: |
+      Cartwheel practice (if comfortable) or low beast transition patterns
+      using hands and feet.
+    duration_min: 3
+    duration_max: 5
+    rpe: 5  # Moderate - requires coordination and strength
+    max_per_day: 1
+    weight: 0.7
+    every_day: false
+    tags: []
+
+  - code: sitthrough-kickthrough
+    title: Sit-through to kick-through flow
+    description: |
+      Ground-based sit-through and kick-through patterns.
+      Great for hip mobility and coordination.
+    duration_min: 3
+    duration_max: 5
+    # rpe: inherits default_rpe (4)
+    max_per_day: 1
+    weight: 1.0
+    every_day: false
+    tags: []
+
+  - code: backward-roll-stand
+    title: Backward roll to squat to stand
+    description: |
+      Backward roll to deep squat position, then stand.
+      Requires good mobility and coordination.
+    duration_min: 3
+    duration_max: 5
+    rpe: 5  # Moderate - coordination challenge
+    max_per_day: 1
+    weight: 0.7
+    every_day: false
+    tags: [squatx]

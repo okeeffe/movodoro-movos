@@ -1,0 +1,89 @@
+# More Ideas - Additional movement options
+category: More Ideas
+code: MI
+weight: 0.8  # Lower weight for miscellaneous items
+default_rpe: 3  # Light - varied movement practices
+tags: [bodyx, mobilityx]
+
+snacks:
+  - code: hanging
+    title: 2-3 min hanging or scap pull practice
+    description: |
+      Dead hang from pull-up bar or scapular pull practice.
+      Great for shoulder health and decompression.
+    duration_min: 2
+    duration_max: 3
+    rpe: 4  # Light-moderate - requires grip strength
+    max_per_day: 1
+    weight: 1.0
+    every_day: false
+    tags: [hangx]
+    # Requires pull-up bar
+
+  - code: wrist-mobility
+    title: Wrist mobility sequence (circles, extensions)
+    description: |
+      Wrist circles, flexion/extension, and wrist strengthening movements.
+      Important for desk workers.
+    duration_min: 3
+    duration_max: 5
+    rpe: 1  # Very light - passive mobility
+    max_per_day: 1
+    weight: 1.0
+    every_day: false
+    tags: []
+
+  - code: foot-rolling
+    title: Foot rolling + toe dexterity work
+    description: |
+      Roll feet on lacrosse ball or similar, practice toe spreading
+      and dexterity exercises.
+    duration_min: 3
+    duration_max: 5
+    rpe: 1  # Very light - passive recovery
+    max_per_day: 1
+    weight: 1.0
+    every_day: false
+    tags: []
+    # Ball or roller helpful
+
+  - code: calf-raises
+    title: Slant-board calf raises (slow, controlled)
+    description: |
+      Calf raises on slant board. Slow eccentric, pause at bottom.
+      Great for ankle/calf health.
+    duration_min: 3
+    duration_max: 5
+    rpe: 4  # Light-moderate - controlled strength work
+    max_per_day: 1
+    weight: 1.0
+    every_day: false
+    tags: []
+    # Slant board recommended
+
+  - code: shadowbox-bands
+    title: Light shadow boxing or elastic band flow
+    description: |
+      Light shadow boxing patterns or flow with resistance bands.
+      Keep it playful and exploratory.
+    duration_min: 3
+    duration_max: 5
+    # rpe: inherits default_rpe (3)
+    max_per_day: 1
+    weight: 0.8
+    every_day: false
+    tags: [bandsx, flowx]
+
+  - code: flow-rope
+    title: Flow Rope
+    description: |
+      Flow rope practice. Rhythmic movement with light rope or
+      similar implement.
+    duration_min: 3
+    duration_max: 5
+    # rpe: inherits default_rpe (3)
+    max_per_day: 1
+    weight: 0.8
+    every_day: false
+    tags: [ropex, flowx]
+    # Requires flow rope

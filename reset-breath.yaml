@@ -1,0 +1,82 @@
+# Reset & Breath - Breathing practices for nervous system regulation
+category: Reset & Breath
+code: RB
+weight: 1.5  # High weight for breath work
+tags: [breathx, resetx]
+
+snacks:
+  - code: box-breathing
+    title: 4-7-8 or box breathing
+    description: |
+      Standing or kneeling breath work. 4-7-8: inhale 4, hold 7, exhale 8.
+      Box: 4-4-4-4 pattern.
+    duration_min: 3
+    duration_max: 5
+    rpe: 1  # Very light - pure breath work
+    max_per_day: 2  # Can do multiple times
+    weight: 1.5
+    every_day: true  # Daily breath practice
+    tags: []
+
+  - code: breathbuilt
+    title: BreathBuilt 3-in / 6-out nasal pattern
+    description: 3 count nasal inhale, 6 count nasal exhale. Calming pattern.
+    duration_min: 3
+    duration_max: 5
+    rpe: 1  # Very light - calming breath
+    max_per_day: 2
+    weight: 1.0
+    every_day: false
+    tags: []
+
+  - code: resting-squat
+    title: Resting squat with slow breaths
+    description: |
+      Deep resting squat position with slow, mindful breathing.
+      Use slant board if needed for heel support.
+    duration_min: 3
+    duration_max: 5
+    rpe: 2  # Very light - passive hold
+    max_per_day: 1
+    weight: 1.0
+    every_day: false
+    tags: [mobilityx]
+    # Slant board optional
+
+  - code: hanging-breath
+    title: Hanging breath practice
+    description: Dead hang from bar. Inhale through nose, full exhale.
+    duration_min: 2
+    duration_max: 3
+    rpe: 4  # Light-moderate - requires grip strength
+    max_per_day: 1
+    weight: 1.0
+    every_day: false
+    tags: [hangx]
+    # Requires pull-up bar
+
+  - code: sidelying-breath
+    title: Side-lying breathing
+    description: |
+      Lie on side and feel lower ribs expand with each breath.
+      Focus on rib mobility.
+    duration_min: 3
+    duration_max: 5
+    rpe: 1  # Very light - lying down
+    max_per_day: 1
+    weight: 1.0
+    every_day: false
+    tags: [mobilityx]
+
+  - code: crocodile-breath
+    title: Crocodile breathing on floor
+    description: |
+      Prone position (belly down) focusing on 360-degree breathing
+      and posterior rib expansion.
+    duration_min: 3
+    duration_max: 5
+    rpe: 1  # Very light - lying down
+    max_per_day: 1
+    weight: 1.0
+    every_day: false
+    tags: [mobilityx]
