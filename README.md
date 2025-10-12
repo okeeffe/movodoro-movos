@@ -1,6 +1,6 @@
 # My Movement Snacks (Movos)
 
-This repository contains my personal movement snacks for use with [movodoro](https://github.com/rok/movodoro).
+This repository contains my personal movement snacks for use with [movodoro](https://github.com/okeeffe/movodoro).
 
 ## Categories
 
@@ -33,3 +33,7 @@ movodoro report
 ## Note
 
 These are tailored to my equipment, training preferences, and RPE perception. Your RPE values may differ!
+
+## License
+
+MIT License - see [LICENSE](LICENSE) for details.
