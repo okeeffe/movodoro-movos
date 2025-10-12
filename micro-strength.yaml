@@ -2,51 +2,98 @@
 category: Micro-Strength
 code: MS
 weight: 1.0
-default_rpe: 7  # Hard - strength circuits
-tags: [strengthx, kbx]
+default_rpe: 7 # Hard - strength circuits
+tags: [strengthx]
 
 snacks:
-  - code: circuit
-    title: Pushup / inverted row / squat circuit (10 each)
+  - code: freeform-squats
+    title: Freeform squats (1 min on / 1 min off × 3)
     description: |
-      Simple bodyweight circuit: 10 pushups, 10 inverted rows (if available),
-      10 squats. 1-2 rounds.
+      Circuit of various squat patterns. 1 minute work, 1 minute rest, 3 rounds.
+      Mix different squat variations.
+    duration_min: 5
+    duration_max: 5
+    rpe: 6 # Moderate - circuit work
+    max_per_day: 1
+    weight: 1.5
+    every_day: true
+    tags: [squatx]
+
+  - code: basics-circuit
+    title: Push / pull / squat circuit
+    description: |
+      Simple bodyweight circuit (hard set each), 1-2 rounds.
+    duration_min: 3
+    duration_max: 10
+    # rpe: inherits default_rpe (7)
+    max_per_day: 1
+    weight: 1.0
+    every_day: false
+    tags: [calisthenix]
+
+  - code: lower-leg
+    title: Lower leg medley
+    description: |
+      Tib raises, calf raises (straight and bent knee)
+    duration_min: 3
+    duration_max: 7
+    # rpe: inherits default_rpe (7)
+    max_per_day: 1
+    weight: 1.2
+    every_day: false
+    tags: [calisthenix]
+
+  - code: heartbeat-goblets
+    title: Heartbeat Goblet Squats
+    description: |
+      1-3 sets of goblet squats where you extend the bell out and back in at the bottom.
     duration_min: 3
     duration_max: 5
     # rpe: inherits default_rpe (7)
     max_per_day: 1
     weight: 1.0
     every_day: false
-    tags: [bodyx]
+    tags: [kbx, stonex]
 
-  - code: swings-flow
-    title: 10 one-arm swings per side + mobility flow
+  - code: goblet-curls
+    title: Goblet Squats w/ Curl
     description: |
-      Explosive single-arm kettlebell swings followed by gentle
-      mobility flow to cool down.
+      1-3 sets of goblet squats where you curl at the bottom.
     duration_min: 3
     duration_max: 5
-    rpe: 8  # Hard - explosive power work
+    # rpe: inherits default_rpe (7)
     max_per_day: 1
     weight: 1.0
     every_day: false
-    tags: [swingx]
+    tags: [kbx, stonex]
+
+  - code: fifty-swings
+    title: 50 swings
+    description: |
+      Whatever style, just hit 50.
+    duration_min: 3
+    duration_max: 5
+    rpe: 8 # Hard - explosive power work
+    max_per_day: 1
+    weight: 1.0
+    every_day: false
+    tags: [kbx, swingx]
     # 12-20kg recommended
 
-  - code: getups
-    title: 5 get-ups (light and slow)
-    description: Turkish get-ups with focus on control and form. Light weight.
-    duration_min: 5
+  - code: snatches
+    title: Snatch practice
+    description: |
+      Get your snatch on. Don't go crazy. Focus on form.
+    duration_min: 3
     duration_max: 5
-    rpe: 5  # Moderate - light weight, controlled
+    rpe: 8
     max_per_day: 1
     weight: 1.0
     every_day: false
-    tags: [getupx]
-    # Use 8-12kg for slow, controlled movement
+    tags: [kbx]
 
   - code: clean-press
-    title: 10 clean & press @ 12-16kg
+    title: 10 clean & press
     description: Single-arm clean and press. 10 reps per side. Moderate weight.
     duration_min: 3
     duration_max: 5
@@ -54,28 +101,27 @@ snacks:
     max_per_day: 1
     weight: 1.0
     every_day: false
-    tags: []
+    tags: [kbx]
 
   - code: front-squats
     title: 2×10 kettlebell front squats (light)
     description: Two sets of 10 kettlebell front squats. Light weight, focus on form.
     duration_min: 3
     duration_max: 5
-    rpe: 6  # Moderate-hard - light weight, volume work
+    rpe: 6 # Moderate-hard - light weight, volume work
     max_per_day: 1
     weight: 1.0
     every_day: false
-    tags: [squatx]
+    tags: [kbx]
 
-  - code: pushup-flow
-    title: Pushup → down-dog → pike press transitions
+  - code: hanging-flow
+    title: Hanging flow
     description: |
-      Flow between pushup, downward dog, and pike press positions.
-      Bodyweight shoulder and pressing work.
-    duration_min: 3
-    duration_max: 5
-    rpe: 6  # Moderate-hard - bodyweight pressing
+      Hang for a while. Single arm hang back and forth. Finish with knee/leg raises.
+    duration_min: 1
+    duration_max: 3
+    rpe: 7
     max_per_day: 1
-    weight: 1.0
+    weight: 1.2
     every_day: false
-    tags: [bodyx, flowx]
+    tags: [calisthenix]

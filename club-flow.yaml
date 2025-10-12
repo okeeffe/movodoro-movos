@@ -1,76 +1,21 @@
 # Club Flow - Steel club movement patterns
 category: Club Flow
 code: CF
-weight: 1.0
+weight: 1.2
 tags: [clubsx, flowx]
 
 snacks:
-  - code: shield-cast
-    title: Light shield casts & pendulums
+  - code: 2hc-mini
+    title: 2HC Mini
     description: |
-      3-5 minutes of shield casting and pendulum work.
+      Continuous motion. Swap top hand. EMOM.
+      Inside, outside, shield cast, mill, cast to rebound.
       Focus on smooth transitions and shoulder mobility.
     duration_min: 3
-    duration_max: 5
-    rpe: 4  # Light-moderate - light club work
+    duration_max: 10
+    rpe: 7
     max_per_day: 1
-    weight: 1.0
-    every_day: false
-    tags: [1hcx]
-    # Light clubs recommended
-
-  - code: mills
-    title: Single-hand mills → reverse mills
-    description: Flow through single-hand mill patterns, transitioning to reverse mills.
-    duration_min: 3
-    duration_max: 5
-    rpe: 5  # Moderate - continuous movement
-    max_per_day: 1
-    weight: 1.0
-    every_day: false
-    tags: [1hcx]
-
-  - code: figure8
-    title: Figure-8s or side circles
-    description: Single-club figure-8 patterns and side circles for shoulder health.
-    duration_min: 3
-    duration_max: 5
-    rpe: 4  # Light-moderate - flowing patterns
-    max_per_day: 1
-    weight: 1.0
-    every_day: false
-    tags: [1hcx]
-
-  - code: halos
-    title: Shoulder halos or shield arcs
-    description: Halo patterns around the head or shield arc movements.
-    duration_min: 3
-    duration_max: 5
-    rpe: 4  # Light-moderate - shoulder work
-    max_per_day: 1
-    weight: 1.0
-    every_day: false
-    tags: [1hcx]
-
-  - code: pendulum-swings
-    title: Front pendulums + underhand swings
-    description: Pendulum swings transitioning to underhand swing patterns.
-    duration_min: 3
-    duration_max: 5
-    rpe: 5  # Moderate - dynamic swinging
-    max_per_day: 1
-    weight: 1.0
-    every_day: false
-    tags: [1hcx]
-
-  - code: double-circles
-    title: Light double-club side circles
-    description: Two-club side circle patterns. Requires coordination and rhythm.
-    duration_min: 3
-    duration_max: 5
-    rpe: 5  # Moderate - coordination required
-    max_per_day: 1
-    weight: 0.8
+    weight: 1.2
     every_day: false
     tags: [2hcx]
-    # Requires two clubs
+    # Light clubs recommended

@@ -1,21 +1,21 @@
-# OS Resets - Foundational movement patterns
-category: OS Resets
-code: OSR
-weight: 1.5  # Higher weight for foundational movements
+# Original Strength - Foundational movement patterns by Tim Anderson
+category: Original Strength
+code: OS
+weight: 1.5 # Higher weight for foundational movements
 tags: [bodyx, mobilityx, flowx]
 
 snacks:
-  - code: head-nods-crawl
-    title: Head nods → rocking → crawling → rolling
+  - code: resets
+    title: OS Resets
     description: |
-      Classic OS reset flow starting from head nods, progressing through
-      rocking, crawling, and rolling. Move slowly and quietly.
+      Classic OS reset flow starting from breathing, to head nods, progressing through
+      rolling, rocking, cross-crawls and marching.
     duration_min: 5
-    duration_max: 7
-    rpe: 3  # Light - gentle floor work
+    duration_max: 15
+    rpe: 3 # Light - gentle floor work
     max_per_day: 1
-    weight: 1.5
-    every_day: true  # Foundational daily practice
+    weight: 2.0
+    every_day: true # Foundational daily practice
     tags: [flowx, crawlx]
 
   - code: shoulder-rolls
@@ -23,7 +23,7 @@ snacks:
     description: Shoulder rolls flowing into full segmental rolling patterns.
     duration_min: 3
     duration_max: 5
-    rpe: 2  # Very light - gentle rolling
+    rpe: 2 # Very light - gentle rolling
     max_per_day: 1
     weight: 1.0
     every_day: false
@@ -36,7 +36,7 @@ snacks:
       Coordinate breath with movement.
     duration_min: 3
     duration_max: 5
-    rpe: 3  # Light - moderate with bridges
+    rpe: 3 # Light - moderate with bridges
     max_per_day: 1
     weight: 1.0
     every_day: false
@@ -47,7 +47,7 @@ snacks:
     description: Smooth transitions from rocking position to tall kneeling.
     duration_min: 3
     duration_max: 5
-    rpe: 2  # Very light - gentle transitions
+    rpe: 2 # Very light - gentle transitions
     max_per_day: 1
     weight: 1.0
     every_day: false
@@ -58,7 +58,7 @@ snacks:
     description: Slow and quiet figure-8 crawling patterns.
     duration_min: 3
     duration_max: 5
-    rpe: 4  # Light-moderate - active crawling
+    rpe: 4 # Light-moderate - active crawling
     max_per_day: 1
     weight: 1.0
     every_day: false
@@ -69,7 +69,7 @@ snacks:
     description: Cross-pattern marching with focus on nasal breathing rhythm.
     duration_min: 3
     duration_max: 5
-    rpe: 3  # Light - rhythmic movement
+    rpe: 3 # Light - rhythmic movement
     max_per_day: 1
     weight: 1.0
     every_day: false

@@ -1,0 +1,21 @@
+# Golf related
+category: Golf
+code: GF
+weight: 1.0
+default_rpe: 3 # Light - varied movement practices
+tags: [golfx]
+
+snacks:
+  - code: golf-swing-stick
+    title: Golf Swing Stick
+    description: |
+      Golf swing practice. Keep it rotational and loose. Aim for
+      20 good swings each way.
+    duration_min: 3
+    duration_max: 5
+    # rpe: inherits default_rpe (3)
+    max_per_day: 1
+    weight: 1.0
+    every_day: true
+    tags: []
+    # Requires swing stick

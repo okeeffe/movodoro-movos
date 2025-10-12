@@ -1,0 +1,34 @@
+# More Ideas - Additional movement options
+category: Miscellaneous
+code: MI
+weight: 0.8 # Lower weight for miscellaneous items
+default_rpe: 3 # Light - varied movement practices
+tags: []
+
+snacks:
+  - code: shadowbox
+    title: Light shadow boxing
+    description: |
+      Light shadow boxing patterns.
+      Keep it playful and exploratory.
+    duration_min: 3
+    duration_max: 5
+    # rpe: inherits default_rpe (3)
+    max_per_day: 1
+    weight: 0.8
+    every_day: false
+    tags: [flowx]
+
+  - code: flow-rope
+    title: Flow Rope
+    description: |
+      Flow rope practice. Rhythmic movement with light rope or
+      similar implement.
+    duration_min: 3
+    duration_max: 5
+    # rpe: inherits default_rpe (3)
+    max_per_day: 1
+    weight: 0.8
+    every_day: false
+    tags: [ropex, flowx]
+    # Requires flow rope

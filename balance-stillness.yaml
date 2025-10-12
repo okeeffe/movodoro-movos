@@ -2,10 +2,49 @@
 category: Balance & Stillness
 code: BS
 weight: 1.0
-default_rpe: 2  # Very light - meditative balance work
+default_rpe: 2 # Very light - meditative balance work
 tags: [bodyx, balancex, mindx]
 
 snacks:
+  - code: meditation
+    title: Meditation
+    description: |
+      Set a timer, and sit. Or use an app like The Way.
+    duration_min: 10
+    duration_max: 30
+    rpe: 2 # Very light
+    max_per_day: 1
+    weight: 2.0
+    every_day: true # Daily meditation practice
+    tags: [mindfulnessx]
+
+  - code: box-breathing
+    title: 4-7-8 or box breathing
+    description: |
+      Standing or kneeling breath work. 4-7-8: inhale 4, hold 7, exhale 8.
+      Box: 4-4-4-4 pattern.
+    duration_min: 3
+    duration_max: 5
+    rpe: 1 # Very light - pure breath work
+    max_per_day: 1
+    weight: 1.5
+    every_day: false
+    tags: []
+
+  - code: resting-squat
+    title: Resting squat with slow breaths
+    description: |
+      Deep resting squat position with slow, mindful breathing.
+      Use slant board if needed for heel support.
+    duration_min: 3
+    duration_max: 5
+    rpe: 2 # Very light - passive hold
+    max_per_day: 1
+    weight: 1.0
+    every_day: false
+    tags: [mobilityx]
+    # Slant board optional
+
   - code: singleleg-reach
     title: Single-leg balance + reach patterns
     description: |
@@ -13,7 +52,7 @@ snacks:
       Focus on stability and control.
     duration_min: 3
     duration_max: 5
-    rpe: 3  # Light - active balance work
+    rpe: 3 # Light - active balance work
     max_per_day: 1
     weight: 1.0
     every_day: false
@@ -31,56 +70,3 @@ snacks:
     weight: 1.0
     every_day: false
     tags: []
-
-  - code: board-breathing
-    title: Balance board or slant board breathing
-    description: |
-      Standing on balance board or slant board with focus on breathing
-      and maintaining stability.
-    duration_min: 3
-    duration_max: 5
-    # rpe: inherits default_rpe (2)
-    max_per_day: 1
-    weight: 1.0
-    every_day: false
-    tags: [breathx]
-    # Requires balance board or slant board
-
-  - code: standing-meditation
-    title: Standing meditation (zhan zhuang)
-    description: |
-      Traditional standing meditation posture. Arms in circle position,
-      soft knees. Focus on breath and stillness.
-    duration_min: 3
-    duration_max: 5
-    # rpe: inherits default_rpe (2)
-    max_per_day: 1
-    weight: 1.0
-    every_day: false
-    tags: [breathx]
-
-  - code: ankle-toe
-    title: Slow ankle rotations + toe spreads
-    description: |
-      Seated or standing ankle mobility work and toe spreading exercises.
-      Great for foot health.
-    duration_min: 3
-    duration_max: 5
-    rpe: 1  # Very light - passive mobility
-    max_per_day: 1
-    weight: 1.0
-    every_day: false
-    tags: [mobilityx]
-
-  - code: tree-pose
-    title: Tree-pose holds with diaphragmatic breathing
-    description: |
-      Yoga tree pose (Vrksasana) with focus on deep belly breathing
-      and stability.
-    duration_min: 3
-    duration_max: 5
-    # rpe: inherits default_rpe (2)
-    max_per_day: 1
-    weight: 1.0
-    every_day: false
-    tags: [breathx]
