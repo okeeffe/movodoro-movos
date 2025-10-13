@@ -5,7 +5,7 @@ weight: 1.0
 default_rpe: 5 # Moderate - controlled get-up work
 tags: [kbx, getupx, strengthx]
 
-snacks:
+movos:
   - code: naked-getups
     title: Naked get-ups (no load)
     description: |

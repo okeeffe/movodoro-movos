@@ -2,9 +2,9 @@
 category: Club Flow
 code: CF
 weight: 1.2
-tags: [clubsx, flowx]
+tags: [clubsx, flowx, rotationx]
 
-snacks:
+movos:
   - code: 2hc-mini
     title: 2HC Mini
     description: |

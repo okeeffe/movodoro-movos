@@ -4,7 +4,7 @@ code: OS
 weight: 1.5 # Higher weight for foundational movements
 tags: [mobilityx]
 
-snacks:
+movos:
   - code: resets
     title: OS Resets
     description: |

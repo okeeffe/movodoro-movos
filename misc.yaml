@@ -5,7 +5,7 @@ weight: 0.8 # Lower weight for miscellaneous items
 default_rpe: 3 # Light - varied movement practices
 tags: []
 
-snacks:
+movos:
   - code: shadowbox
     title: Light shadow boxing
     description: |

@@ -3,9 +3,9 @@ category: Carry & Crawl
 code: CC
 weight: 1.0
 default_rpe: 6 # Moderate-hard for loaded carries
-tags: [bodyx, flowx, strengthx]
+tags: [strengthx]
 
-snacks:
+movos:
   - code: leopard-crawl
     title: Leopard crawl
     description: |
