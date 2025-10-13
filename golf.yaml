@@ -2,7 +2,7 @@
 category: Golf
 code: GF
 weight: 1.0
-default_rpe: 3 # Light - varied movement practices
+default_rpe: 2 # Light - varied movement practices
 tags: [golfx]
 
 movos:

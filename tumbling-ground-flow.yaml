@@ -1,9 +1,9 @@
 # Tumbling & Ground Flow - Movement exploration on the ground
-category: Tumbling & Ground Flow
-code: TGF
+category: Tumbling & Ground
+code: TG
 weight: 1.0
 default_rpe: 4 # Light-moderate ground movement
-tags: [bodyx, flowx, mobilityx]
+tags: [mobilityx]
 
 movos:
   - code: shoulder-rolls

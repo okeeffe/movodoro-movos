@@ -3,7 +3,7 @@ category: Balance & Stillness
 code: BS
 weight: 1.0
 default_rpe: 2 # Very light - meditative balance work
-tags: [mindfulnessx]
+tags: []
 
 movos:
   - code: meditation
@@ -16,7 +16,7 @@ movos:
     max_per_day: 1
     weight: 2.0
     min_per_day: 1 # Daily meditation practice
-    tags: []
+    tags: [mindfulnessx]
 
   - code: box-breathing
     title: 4-7-8 or box breathing
@@ -28,7 +28,7 @@ movos:
     rpe: 1 # Very light - pure breath work
     max_per_day: 1
     weight: 1.5
-    tags: [breathworkx]
+    tags: [breathworkx, mindfulnessx]
 
   - code: resting-squat
     title: Resting squat with slow breaths
@@ -50,7 +50,7 @@ movos:
       Focus on stability and control.
     duration_min: 3
     duration_max: 5
-    rpe: 3 # Light - active balance work
+    rpe: 2 # Light - active balance work
     max_per_day: 1
     weight: 1.0
     tags: [balancex]

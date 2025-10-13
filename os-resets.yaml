@@ -16,7 +16,7 @@ movos:
     max_per_day: 2
     weight: 2.0
     min_per_day: 1 # Foundational daily practice
-    tags: [flowx, crawlx]
+    tags: [crawlx]
 
   - code: shoulder-rolls
     title: Shoulder rolls → segmental rolling
@@ -48,7 +48,7 @@ movos:
     rpe: 2 # Very light - gentle transitions
     max_per_day: 1
     weight: 1.0
-    tags: [flowx]
+    tags: []
 
   - code: crawling-figure8
     title: Crawling figure-8s
@@ -58,7 +58,7 @@ movos:
     rpe: 4 # Light-moderate - active crawling
     max_per_day: 1
     weight: 1.0
-    tags: [crawlx, flowx]
+    tags: [crawlx]
 
   - code: cross-crawl-march
     title: Cross-crawl march with nasal breathing
@@ -68,4 +68,4 @@ movos:
     rpe: 3 # Light - rhythmic movement
     max_per_day: 1
     weight: 1.0
-    tags: [breathx, flowx]
+    tags: [breathx]

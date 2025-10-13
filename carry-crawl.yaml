@@ -1,7 +1,7 @@
 # Carry & Crawl - Loaded movement and ground patterns
 category: Carry & Crawl
 code: CC
-weight: 1.0
+weight: 1.1
 default_rpe: 6 # Moderate-hard for loaded carries
 tags: [strengthx]
 
@@ -39,7 +39,7 @@ movos:
     duration_max: 5
     # rpe: inherits default_rpe (6)
     max_per_day: 1
-    weight: 1.0
+    weight: 1.1
     tags: [kbx, carryx, stonex]
     # Requires kettlebell or dumbbell
 

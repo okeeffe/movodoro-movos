@@ -3,7 +3,7 @@ category: Get-Up Practice
 code: GUP
 weight: 1.0
 default_rpe: 5 # Moderate - controlled get-up work
-tags: [kbx, getupx, strengthx]
+tags: [getupx, strengthx]
 
 movos:
   - code: naked-getups
@@ -16,7 +16,7 @@ movos:
     rpe: 3 # Light - bodyweight only
     max_per_day: 1
     weight: 1.0
-    tags: [bodyx]
+    tags: [calisthenix]
 
   - code: getups
     title: Get-ups
@@ -26,4 +26,4 @@ movos:
     # rpe: inherits default_rpe (5)
     max_per_day: 1
     weight: 1.0
-    tags: []
+    tags: [kbx]
