@@ -16,6 +16,6 @@ snacks:
     # rpe: inherits default_rpe (3)
     max_per_day: 1
     weight: 1.0
-    every_day: true
+    min_per_day: 1
     tags: []
     # Requires swing stick

@@ -16,7 +16,6 @@ snacks:
     rpe: 2 # Very light - gentle rolling
     max_per_day: 1
     weight: 1.1
-    every_day: false
     tags: []
 
   - code: stand-up
@@ -28,7 +27,6 @@ snacks:
     # rpe: inherits default_rpe (4)
     max_per_day: 1
     weight: 1.1
-    every_day: false
     tags: []
 
   - code: cartwheel-beast
@@ -41,7 +39,6 @@ snacks:
     rpe: 5 # Moderate - requires coordination and strength
     max_per_day: 1
     weight: 0.7
-    every_day: false
     tags: []
 
   - code: sitthrough-kickthrough
@@ -54,7 +51,6 @@ snacks:
     # rpe: inherits default_rpe (4)
     max_per_day: 1
     weight: 1.0
-    every_day: false
     tags: []
 
   - code: backward-roll-stand
@@ -67,5 +63,4 @@ snacks:
     rpe: 5 # Moderate - coordination challenge
     max_per_day: 1
     weight: 0.7
-    every_day: false
     tags: [squatx]

@@ -16,7 +16,6 @@ snacks:
     # rpe: inherits default_rpe (3)
     max_per_day: 1
     weight: 0.8
-    every_day: false
     tags: [flowx]
 
   - code: flow-rope
@@ -29,6 +28,5 @@ snacks:
     # rpe: inherits default_rpe (3)
     max_per_day: 1
     weight: 0.8
-    every_day: false
     tags: [ropex, flowx]
     # Requires flow rope

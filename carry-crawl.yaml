@@ -15,7 +15,6 @@ snacks:
     rpe: 5 # Moderate - unloaded crawling
     max_per_day: 1
     weight: 1.2
-    every_day: false
     tags: [movementx]
 
   - code: suitcase
@@ -28,7 +27,6 @@ snacks:
     # rpe: inherits default_rpe (6)
     max_per_day: 1
     weight: 1.2
-    every_day: false
     tags: [kbx, carryx, stonex]
     # Requires kettlebell or dumbbell
 
@@ -42,7 +40,6 @@ snacks:
     # rpe: inherits default_rpe (6)
     max_per_day: 1
     weight: 1.0
-    every_day: false
     tags: [kbx, carryx, stonex]
     # Requires kettlebell or dumbbell
 
@@ -56,7 +53,6 @@ snacks:
     # rpe: inherits default_rpe (6)
     max_per_day: 1
     weight: 1.0
-    every_day: false
     tags: [kbx, carryx, stonex]
     # Requires kettlebell or dumbbell
 
@@ -70,7 +66,6 @@ snacks:
     rpe: 7 # Hard
     max_per_day: 1
     weight: 1.0
-    every_day: false
     tags: [kbx, carryx, stonex]
 
   - code: farmer-carry
@@ -83,6 +78,5 @@ snacks:
     # rpe: inherits default_rpe (6)
     max_per_day: 1
     weight: 1.0
-    every_day: false
     tags: [kbx, carryx, stonex]
     # Requires two kettlebells or dumbbells

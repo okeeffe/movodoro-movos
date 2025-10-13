@@ -16,7 +16,6 @@ snacks:
     rpe: 3 # Light - bodyweight only
     max_per_day: 1
     weight: 1.0
-    every_day: false
     tags: [bodyx]
 
   - code: getups
@@ -27,5 +26,4 @@ snacks:
     # rpe: inherits default_rpe (5)
     max_per_day: 1
     weight: 1.0
-    every_day: false
     tags: []

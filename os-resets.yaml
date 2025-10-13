@@ -2,7 +2,7 @@
 category: Original Strength
 code: OS
 weight: 1.5 # Higher weight for foundational movements
-tags: [bodyx, mobilityx, flowx]
+tags: [mobilityx]
 
 snacks:
   - code: resets
@@ -12,10 +12,10 @@ snacks:
       rolling, rocking, cross-crawls and marching.
     duration_min: 5
     duration_max: 15
-    rpe: 3 # Light - gentle floor work
-    max_per_day: 1
+    rpe: 2 # Light - gentle floor work
+    max_per_day: 2
     weight: 2.0
-    every_day: true # Foundational daily practice
+    min_per_day: 1 # Foundational daily practice
     tags: [flowx, crawlx]
 
   - code: shoulder-rolls
@@ -26,8 +26,7 @@ snacks:
     rpe: 2 # Very light - gentle rolling
     max_per_day: 1
     weight: 1.0
-    every_day: false
-    tags: [mobilityx]
+    tags: []
 
   - code: breathing-bridges
     title: Breathing bridges
@@ -39,8 +38,7 @@ snacks:
     rpe: 3 # Light - moderate with bridges
     max_per_day: 1
     weight: 1.0
-    every_day: false
-    tags: [breathx, mobilityx]
+    tags: [breathx]
 
   - code: rocking-kneel
     title: Rocking to tall kneel transitions
@@ -50,7 +48,6 @@ snacks:
     rpe: 2 # Very light - gentle transitions
     max_per_day: 1
     weight: 1.0
-    every_day: false
     tags: [flowx]
 
   - code: crawling-figure8
@@ -61,7 +58,6 @@ snacks:
     rpe: 4 # Light-moderate - active crawling
     max_per_day: 1
     weight: 1.0
-    every_day: false
     tags: [crawlx, flowx]
 
   - code: cross-crawl-march
@@ -72,5 +68,4 @@ snacks:
     rpe: 3 # Light - rhythmic movement
     max_per_day: 1
     weight: 1.0
-    every_day: false
     tags: [breathx, flowx]

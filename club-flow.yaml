@@ -16,6 +16,5 @@ snacks:
     rpe: 7
     max_per_day: 1
     weight: 1.2
-    every_day: false
     tags: [2hcx]
     # Light clubs recommended

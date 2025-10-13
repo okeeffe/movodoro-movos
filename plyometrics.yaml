@@ -14,7 +14,6 @@ snacks:
     duration_max: 5
     max_per_day: 1
     weight: 1.0
-    every_day: false
     tags: []
 
   - code: upper-rebound
@@ -26,7 +25,6 @@ snacks:
     # rpe: inherits default_rpe (7)
     max_per_day: 1
     weight: 1.0
-    every_day: false
     tags: [calisthenix]
 
   - code: maasai
@@ -38,5 +36,4 @@ snacks:
     # rpe: inherits default_rpe (7)
     max_per_day: 1
     weight: 1.0
-    every_day: false
     tags: [calisthenix]

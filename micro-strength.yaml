@@ -16,7 +16,7 @@ snacks:
     rpe: 6 # Moderate - circuit work
     max_per_day: 1
     weight: 1.5
-    every_day: true
+    min_per_day: 1
     tags: [squatx]
 
   - code: basics-circuit
@@ -28,7 +28,6 @@ snacks:
     # rpe: inherits default_rpe (7)
     max_per_day: 1
     weight: 1.0
-    every_day: false
     tags: [calisthenix]
 
   - code: lower-leg
@@ -40,7 +39,6 @@ snacks:
     # rpe: inherits default_rpe (7)
     max_per_day: 1
     weight: 1.2
-    every_day: false
     tags: [calisthenix]
 
   - code: heartbeat-goblets
@@ -52,7 +50,6 @@ snacks:
     # rpe: inherits default_rpe (7)
     max_per_day: 1
     weight: 1.0
-    every_day: false
     tags: [kbx, stonex]
 
   - code: goblet-curls
@@ -64,7 +61,6 @@ snacks:
     # rpe: inherits default_rpe (7)
     max_per_day: 1
     weight: 1.0
-    every_day: false
     tags: [kbx, stonex]
 
   - code: fifty-swings
@@ -76,7 +72,6 @@ snacks:
     rpe: 8 # Hard - explosive power work
     max_per_day: 1
     weight: 1.0
-    every_day: false
     tags: [kbx, swingx]
     # 12-20kg recommended
 
@@ -89,7 +84,6 @@ snacks:
     rpe: 8
     max_per_day: 1
     weight: 1.0
-    every_day: false
     tags: [kbx]
 
   - code: clean-press
@@ -100,7 +94,6 @@ snacks:
     # rpe: inherits default_rpe (7)
     max_per_day: 1
     weight: 1.0
-    every_day: false
     tags: [kbx]
 
   - code: front-squats
@@ -111,7 +104,6 @@ snacks:
     rpe: 6 # Moderate-hard - light weight, volume work
     max_per_day: 1
     weight: 1.0
-    every_day: false
     tags: [kbx]
 
   - code: hanging-flow
@@ -123,5 +115,4 @@ snacks:
     rpe: 7
     max_per_day: 1
     weight: 1.2
-    every_day: false
     tags: [calisthenix]

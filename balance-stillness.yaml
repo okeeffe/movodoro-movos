@@ -15,7 +15,7 @@ snacks:
     rpe: 2 # Very light
     max_per_day: 1
     weight: 2.0
-    every_day: true # Daily meditation practice
+    min_per_day: 1 # Daily meditation practice
     tags: [mindfulnessx]
 
   - code: box-breathing
@@ -28,7 +28,6 @@ snacks:
     rpe: 1 # Very light - pure breath work
     max_per_day: 1
     weight: 1.5
-    every_day: false
     tags: []
 
   - code: resting-squat
@@ -41,7 +40,6 @@ snacks:
     rpe: 2 # Very light - passive hold
     max_per_day: 1
     weight: 1.0
-    every_day: false
     tags: [mobilityx]
     # Slant board optional
 
@@ -55,7 +53,6 @@ snacks:
     rpe: 3 # Light - active balance work
     max_per_day: 1
     weight: 1.0
-    every_day: false
     tags: []
 
   - code: eyesclosed-balance
@@ -68,5 +65,4 @@ snacks:
     # rpe: inherits default_rpe (2)
     max_per_day: 1
     weight: 1.0
-    every_day: false
     tags: []
