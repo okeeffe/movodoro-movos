@@ -1,6 +1,6 @@
 # Quick plyometrics workouts.
 category: Plyometrics
-code: PL
+code: PY
 weight: 1.0
 default_rpe: 7 # Hard - strength circuits
 tags: [strengthx, jumpx]

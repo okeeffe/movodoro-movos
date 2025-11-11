@@ -19,16 +19,29 @@ movos:
     min_per_day: 1
     tags: [squatx]
 
-  - code: basics-circuit
-    title: Push / pull / squat circuit
+  - code: horse-iso
+    title: Horse stance - isometric
     description: |
-      Simple bodyweight circuit (hard set each), 1-2 rounds.
-    duration_min: 3
-    duration_max: 10
-    # rpe: inherits default_rpe (7)
+      Static, isometric horse stance hold. Deepen over time.
+    duration_min: 1
+    duration_max: 5
+    rpe: 6 # Moderate - mentally tough!
     max_per_day: 1
-    weight: 1.0
-    tags: [calisthenix]
+    weight: 1.5
+    min_per_day: 1
+    tags: [squatx, mobilityx, isometricx]
+
+  - code: duck-walk
+    title: Duck walk
+    description: |
+      Walk like a duck. Quacking optional. Move towards wrestler's sprawl.
+      1 minute work, 1 minute rest is probably an ideal cadence.
+    duration_min: 5
+    duration_max: 5
+    rpe: 6 # Moderate - mentally tough!
+    max_per_day: 1
+    weight: 1.5
+    tags: [squatx, mobilityx]
 
   - code: lower-leg
     title: Lower leg medley
@@ -39,6 +52,17 @@ movos:
     # rpe: inherits default_rpe (7)
     max_per_day: 1
     weight: 1.2
+    tags: [calisthenix]
+
+  - code: basics-circuit
+    title: Push / pull / squat circuit
+    description: |
+      Simple bodyweight circuit (hard set each), 1-2 rounds.
+    duration_min: 3
+    duration_max: 10
+    # rpe: inherits default_rpe (7)
+    max_per_day: 1
+    weight: 1.0
     tags: [calisthenix]
 
   - code: heartbeat-goblets

@@ -1,0 +1,80 @@
+# Subsets Configuration
+# Define named collections of movos for specific situations
+
+subsets:
+  # Back-safe movements for injury recovery
+  back-safe:
+    description: "Safe, low-load movements during back injury recovery (no spinal loading)"
+    codes:
+      # Breathing and meditation (RPE 1-2)
+      - BS-meditation
+      - BS-box-breathing
+
+      # Gentle Original Strength resets (RPE 2-3)
+      - OS-resets
+      - OS-breathing-bridges
+      - OS-rocking-kneel
+      - OS-cross-crawl-march
+
+  # No-equipment movements for travel
+  travel:
+    description: "Bodyweight-only movements requiring no equipment"
+    codes:
+      # Meditation and breathing
+      - BS-meditation
+      - BS-box-breathing
+      - BS-resting-squat
+
+      # Original Strength fundamentals
+      - OS-resets
+      - OS-shoulder-rolls
+      - OS-breathing-bridges
+      - OS-rocking-kneel
+      - OS-crawling-figure8
+      - OS-cross-crawl-march
+
+      # Balance
+      - BS-singleleg-reach
+      - BS-eyesclosed-balance
+
+      # Strength
+      - MS-freeform-squats
+      - MS-basics-circuit
+      - MS-lower-leg
+      - GU-naked-getups
+
+      # Miscellaneous
+      - MI-shadowbox
+
+  # Low-intensity recovery movements
+  recovery:
+    description: "Very light movements (RPE ≤ 2) for active recovery days"
+    codes:
+      # Breathing and stillness
+      - BS-meditation
+      - BS-box-breathing
+      - BS-resting-squat
+
+      # Gentle floor work
+      - OS-resets
+      - OS-shoulder-rolls
+      - OS-rocking-kneel
+      - TG-stand-up
+
+      # Strength
+      - GU-naked-getups
+
+      # Light balance
+      - BS-singleleg-reach
+      - BS-eyesclosed-balance
+
+  # Mindfulness-focused session
+  mindfulness:
+    description: "Breath work, meditation, and mindful movement practices"
+    codes:
+      - BS-meditation
+      - BS-box-breathing
+      - BS-resting-squat
+      - OS-resets
+      - OS-breathing-bridges
+      - OS-cross-crawl-march
