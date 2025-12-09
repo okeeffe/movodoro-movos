@@ -6,6 +6,18 @@ default_rpe: 3 # Light - varied movement practices
 tags: []
 
 movos:
+  - code: liquid-motion-flow
+    title: Liquid Motion Flow
+    description: |
+      Liquid Motion run through (1 -> n), as per Supermover.
+    duration_min: 4
+    duration_max: 20
+    # rpe: inherits default_rpe (3)
+    min_per_day: 1
+    max_per_day: 1
+    weight: 1.2
+    tags: [flowx, mobilityx]
+
   - code: shadowbox
     title: Light shadow boxing
     description: |

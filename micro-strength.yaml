@@ -16,7 +16,6 @@ movos:
     rpe: 6 # Moderate - circuit work
     max_per_day: 1
     weight: 1.5
-    min_per_day: 1
     tags: [squatx]
 
   - code: horse-iso
@@ -137,6 +136,6 @@ movos:
     duration_min: 1
     duration_max: 3
     rpe: 7
-    max_per_day: 1
+    min_per_day: 1
     weight: 1.2
     tags: [calisthenix]
