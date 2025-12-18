@@ -18,6 +18,18 @@ movos:
     weight: 1.2
     tags: [flowx, mobilityx]
 
+  - code: juggling
+    title: Juggling
+    description: |
+      Juggle! Some 3-ball, 2-ball-1-hand, whatever, baby.
+    duration_min: 3
+    duration_max: 20
+    # rpe: inherits default_rpe (3)
+    min_per_day: 1
+    max_per_day: 1
+    weight: 1.2
+    tags: [flowx, mobilityx]
+
   - code: shadowbox
     title: Light shadow boxing
     description: |
