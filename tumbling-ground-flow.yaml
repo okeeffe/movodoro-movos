@@ -6,6 +6,19 @@ default_rpe: 4 # Light-moderate ground movement
 tags: [mobilityx]
 
 movos:
+  - code: wildman-abs
+    title: Wildman Abs
+    description: |
+      Novel ab workouts, starting with the 3 mins per day plan, moving up.
+      https://wildmanathletica.mykajabi.com/products/ab-program
+    duration_min: 3
+    duration_max: 5
+    rpe: 6 # Very light - gentle rolling
+    min_per_day: 1
+    max_per_day: 1
+    weight: 1.1
+    tags: [strengthx, corex]
+
   - code: shoulder-rolls
     title: Shoulder rolls (left & right)
     description: |
